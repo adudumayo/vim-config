@@ -45,5 +45,5 @@ map <C-q> :q!<CR>
 " Writing and then quiting
 map <C-s> :wq<CR>
 
-" Escaping Esc by ctrl + space
-inoremap <C- > <Esc>
+" Save without quiting
+noremap <C-z> :w<CR>
